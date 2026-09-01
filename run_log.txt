@@ -3087,3 +3087,180 @@ Individual stock returns (this is the slow part - one call per stock):
 Wrote dashboard_data.json
 Wrote attribution_tracker_live.html
         1 file(s) copied.
+warning: in the working copy of 'run_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main a376543] Daily refresh: 31-08-2026 16:01:27.95
+ 4 files changed, 1787 insertions(+), 5532 deletions(-)
+fatal: unable to access 'https://github.com/ypandey2585-crypto/attribution-tracker.git/': Could not resolve host: github.com
+==== Run finished: 31-08-2026 16:01:30.46 ==== 
+ 
+==== Run started: 01-09-2026 22:23:59.99 ==== 
+$^NSEI: possibly delisted; no price data found  (period=1y)
+$^BSESN: possibly delisted; no price data found  (period=1y)
+$^N225: possibly delisted; no price data found  (period=1y)
+$^KS11: possibly delisted; no price data found  (period=1y)
+$000001.SS: possibly delisted; no price data found  (period=1y)
+$000300.SS: possibly delisted; no price data found  (period=1y)
+$^FTSE: possibly delisted; no price data found  (period=1y)
+$^GSPC: possibly delisted; no price data found  (period=1y)
+$^NDX: possibly delisted; no price data found  (period=1y)
+$^STOXX50E: possibly delisted; no price data found  (period=1y)
+$^FTSE: possibly delisted; no price data found  (period=1y)
+$^N225: possibly delisted; no price data found  (period=1y)
+$^KS11: possibly delisted; no price data found  (period=1y)
+$000300.SS: possibly delisted; no price data found  (period=1y)
+$^CNXIT: possibly delisted; no price data found  (period=1y)
+$XLK: possibly delisted; no price data found  (period=1y)
+$^NSEBANK: possibly delisted; no price data found  (period=1y)
+$XLF: possibly delisted; no price data found  (period=1y)
+$^CNXPHARMA: possibly delisted; no price data found  (period=1y)
+$XLV: possibly delisted; no price data found  (period=1y)
+$^CNXFMCG: possibly delisted; no price data found  (period=1y)
+$XLP: possibly delisted; no price data found  (period=1y)
+$^CNXMETAL: possibly delisted; no price data found  (period=1y)
+$XLB: possibly delisted; no price data found  (period=1y)
+$^CNXENERGY: possibly delisted; no price data found  (period=1y)
+$XLE: possibly delisted; no price data found  (period=1y)
+$^CNXREALTY: possibly delisted; no price data found  (period=1y)
+$XLRE: possibly delisted; no price data found  (period=1y)
+$^CNXPSUBANK: possibly delisted; no price data found  (period=1y)
+$^CNXMEDIA: possibly delisted; no price data found  (period=1y)
+$XLC: possibly delisted; no price data found  (period=1y)
+$^CNXINFRA: possibly delisted; no price data found  (period=1y)
+$XLI: possibly delisted; no price data found  (period=1y)
+$XLU: possibly delisted; no price data found  (period=1y)
+$XLY: possibly delisted; no price data found  (period=1y)
+$^CNXAUTO: possibly delisted; no price data found  (period=1y)
+$TCS.NS: possibly delisted; no price data found  (period=1y)
+$INFY.NS: possibly delisted; no price data found  (period=1y)
+$HCLTECH.NS: possibly delisted; no price data found  (period=1y)
+$WIPRO.NS: possibly delisted; no price data found  (period=1y)
+$TECHM.NS: possibly delisted; no price data found  (period=1y)
+Failed to get ticker 'LTIM.NS' reason: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$PERSISTENT.NS: possibly delisted; no price data found  (period=1y)
+$COFORGE.NS: possibly delisted; no price data found  (period=1y)
+$MPHASIS.NS: possibly delisted; no price data found  (period=1y)
+$OFSS.NS: possibly delisted; no price data found  (period=1y)
+$AAPL: possibly delisted; no price data found  (period=1y)
+$MSFT: possibly delisted; no price data found  (period=1y)
+$NVDA: possibly delisted; no price data found  (period=1y)
+$AVGO: possibly delisted; no price data found  (period=1y)
+$ORCL: possibly delisted; no price data found  (period=1y)
+$CRM: possibly delisted; no price data found  (period=1y)
+$CSCO: possibly delisted; no price data found  (period=1y)
+$IBM: possibly delisted; no price data found  (period=1y)
+$ADBE: possibly delisted; no price data found  (period=1y)
+$QCOM: possibly delisted; no price data found  (period=1y)
+$HDFCBANK.NS: possibly delisted; no price data found  (period=1y)
+$ICICIBANK.NS: possibly delisted; no price data found  (period=1y)
+$SBIN.NS: possibly delisted; no price data found  (period=1y)
+$KOTAKBANK.NS: possibly delisted; no price data found  (period=1y)
+$AXISBANK.NS: possibly delisted; no price data found  (period=1y)
+$INDUSINDBK.NS: possibly delisted; no price data found  (period=1y)
+$BANKBARODA.NS: possibly delisted; no price data found  (period=1y)
+$PNB.NS: possibly delisted; no price data found  (period=1y)
+$FEDERALBNK.NS: possibly delisted; no price data found  (period=1y)
+$IDFCFIRSTB.NS: possibly delisted; no price data found  (period=1y)
+$JPM: possibly delisted; no price data found  (period=1y)
+$BRK-B: possibly delisted; no price data found  (period=1y)
+$V: possibly delisted; no price data found  (period=1y)
+$MA: possibly delisted; no price data found  (period=1y)
+$BAC: possibly delisted; no price data found  (period=1y)
+$GS: possibly delisted; no price data found  (period=1y)
+$MS: possibly delisted; no price data found  (period=1y)
+$WFC: possibly delisted; no price data found  (period=1y)
+$C: possibly delisted; no price data found  (period=1y)
+$AXP: possibly delisted; no price data found  (period=1y)
+$SUNPHARMA.NS: possibly delisted; no price data found  (period=1y)
+$CIPLA.NS: possibly delisted; no price data found  (period=1y)
+$DRREDDY.NS: possibly delisted; no price data found  (period=1y)
+$DIVISLAB.NS: possibly delisted; no price data found  (period=1y)
+$APOLLOHOSP.NS: possibly delisted; no price data found  (period=1y)
+$LUPIN.NS: possibly delisted; no price data found  (period=1y)
+$AUROPHARMA.NS: possibly delisted; no price data found  (period=1y)
+$TORNTPHARM.NS: possibly delisted; no price data found  (period=1y)
+$ZYDUSLIFE.NS: possibly delisted; no price data found  (period=1y)
+$MANKIND.NS: possibly delisted; no price data found  (period=1y)
+$LLY: possibly delisted; no price data found  (period=1y)
+$UNH: possibly delisted; no price data found  (period=1y)
+$JNJ: possibly delisted; no price data found  (period=1y)
+$ABBV: possibly delisted; no price data found  (period=1y)
+$MRK: possibly delisted; no price data found  (period=1y)
+$PFE: possibly delisted; no price data found  (period=1y)
+$TMO: possibly delisted; no price data found  (period=1y)
+$ABT: possibly delisted; no price data found  (period=1y)
+$AMGN: possibly delisted; no price data found  (period=1y)
+$BMY: possibly delisted; no price data found  (period=1y)
+$HINDUNILVR.NS: possibly delisted; no price data found  (period=1y)
+$ITC.NS: possibly delisted; no price data found  (period=1y)
+$NESTLEIND.NS: possibly delisted; no price data found  (period=1y)
+$BRITANNIA.NS: possibly delisted; no price data found  (period=1y)
+$TATACONSUM.NS: possibly delisted; no price data found  (period=1y)
+$GODREJCP.NS: possibly delisted; no price data found  (period=1y)
+$DABUR.NS: possibly delisted; no price data found  (period=1y)
+$MARICO.NS: possibly delisted; no price data found  (period=1y)
+$COLPAL.NS: possibly delisted; no price data found  (period=1y)
+Failed to get ticker 'MCDOWELL-N.NS' reason: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+$PG: possibly delisted; no price data found  (period=1y)
+$COST: possibly delisted; no price data found  (period=1y)
+$WMT: possibly delisted; no price data found  (period=1y)
+$KO: possibly delisted; no price data found  (period=1y)
+$TV18BRDCST.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$GMRINFRA.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$TATAMOTORS.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+Fetching live data from Yahoo Finance (EOD closes only, no intraday/live quotes)...
+
+Global indices:
+  Nifty 50               ^NSEI        D=None  (EOD as of None)
+  Sensex                 ^BSESN       D=None  (EOD as of None)
+  Nikkei 225             ^N225        D=None  (EOD as of None)
+  KOSPI                  ^KS11        D=None  (EOD as of None)
+  Shanghai Composite     000001.SS    D=None  (EOD as of None)
+  CSI 300                000300.SS    D=None  (EOD as of None)
+  FTSE 100               ^FTSE        D=None  (EOD as of None)
+  S&P 500                ^GSPC        D=None  (EOD as of None)
+  Nasdaq 100             ^NDX         D=None  (EOD as of None)
+
+Country proxy indices (used for sector columns where no free sector index exists):
+  eu   ^STOXX50E    D=None  (EOD as of None)
+  uk   ^FTSE        D=None  (EOD as of None)
+  jp   ^N225        D=None  (EOD as of None)
+  kr   ^KS11        D=None  (EOD as of None)
+  cn   000300.SS    D=None  (EOD as of None)
+
+Sector indices (India NSE / US SPDR sector ETFs):
+  IT / Technology              IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Banking / Financials         IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Pharma / Healthcare          IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  FMCG / Consumer Staples      IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Metal / Materials            IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Energy                       IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Realty                       IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  PSU / Public Sector          IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Media                        IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Infra                        IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Industrials                  IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Utilities                    IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Consumer Discretionary       IN(D)=None  US(D)=None  streak(IN/US)=0/0
+  Auto                         IN(D)=None  US(D)=None  streak(IN/US)=0/0
+
+Individual stock returns (this is the slow part - one call per stock):
+  [warn] failed to fetch LTIM.NS: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+  done: IT / Technology
+  done: Banking / Financials
+  done: Pharma / Healthcare
+  [warn] failed to fetch MCDOWELL-N.NS: Failed to perform, curl: (6) Could not resolve host: query1.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+  done: FMCG / Consumer Staples
+  done: Metal / Materials
+  done: Energy
+  done: Realty
+  done: PSU / Public Sector
+  done: Media
+  done: Infra
+  done: Industrials
+  done: Utilities
+  done: Consumer Discretionary
+  done: Auto
+
+Wrote dashboard_data.json
+Wrote attribution_tracker_live.html
+        1 file(s) copied.
