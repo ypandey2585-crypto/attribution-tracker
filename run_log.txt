@@ -3264,3 +3264,76 @@ Individual stock returns (this is the slow part - one call per stock):
 Wrote dashboard_data.json
 Wrote attribution_tracker_live.html
         1 file(s) copied.
+warning: in the working copy of 'run_log.txt', LF will be replaced by CRLF the next time Git touches it
+[main ef3ceb6] Daily refresh: 01-09-2026 22:24:49.39
+ 4 files changed, 3035 insertions(+), 722 deletions(-)
+To https://github.com/ypandey2585-crypto/attribution-tracker.git
+   e9254e9..ef3ceb6  main -> main
+==== Run finished: 01-09-2026 22:24:55.82 ==== 
+ 
+==== Run started: 10-09-2026  7:50:40.30 ==== 
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LTIM.NS"}}}
+$LTIM.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$MCDOWELL-N.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$TV18BRDCST.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$GMRINFRA.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$TATAMOTORS.NS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+Fetching live data from Yahoo Finance (EOD closes only, no intraday/live quotes)...
+
+Global indices:
+  Nifty 50               ^NSEI        D=-0.861429030297977  (EOD as of 2026-09-09)
+  Sensex                 ^BSESN       D=-1.0761810350085228  (EOD as of 2026-09-09)
+  Nikkei 225             ^N225        D=-0.19388413920493378  (EOD as of 2026-09-09)
+  KOSPI                  ^KS11        D=1.3965035245386512  (EOD as of 2026-09-09)
+  Shanghai Composite     000001.SS    D=0.27803356984608346  (EOD as of 2026-09-09)
+  CSI 300                000300.SS    D=-3.6041717221422296  (EOD as of 2026-07-17)
+  FTSE 100               ^FTSE        D=-1.309697673626689  (EOD as of 2026-09-09)
+  S&P 500                ^GSPC        D=-0.4842647983639455  (EOD as of 2026-09-09)
+  Nasdaq 100             ^NDX         D=-0.29194578586547393  (EOD as of 2026-09-09)
+
+  [note] These indices are more than 1 day behind the freshest data seen --
+         this reflects Yahoo's own free-tier data lag for that market, not a bug here:
+           CSI 300                last close 2026-07-17  (54 days behind freshest: 2026-09-09)
+
+Country proxy indices (used for sector columns where no free sector index exists):
+  eu   ^STOXX50E    D=-1.5843937478510255  (EOD as of 2026-09-09)
+  uk   ^FTSE        D=-1.309697673626689  (EOD as of 2026-09-09)
+  jp   ^N225        D=-0.19388413920493378  (EOD as of 2026-09-09)
+  kr   ^KS11        D=1.3965035245386512  (EOD as of 2026-09-09)
+  cn   000300.SS    D=-3.6041717221422296  (EOD as of 2026-07-17)
+
+Sector indices (India NSE / US SPDR sector ETFs):
+  IT / Technology              IN(D)={'v': -3.2442652299764085, 'tier': 'ver'}  US(D)={'v': 0.0, 'tier': 'ver'}  streak(IN/US)=6/0
+  Banking / Financials         IN(D)={'v': -0.8489270730557363, 'tier': 'ver'}  US(D)={'v': -0.418844444965202, 'tier': 'ver'}  streak(IN/US)=4/3
+  Pharma / Healthcare          IN(D)={'v': -0.7031040538488422, 'tier': 'ver'}  US(D)={'v': -0.3290869596655976, 'tier': 'ver'}  streak(IN/US)=1/3
+  FMCG / Consumer Staples      IN(D)={'v': 0.7038076738349033, 'tier': 'ver'}  US(D)={'v': -1.1544794454459677, 'tier': 'ver'}  streak(IN/US)=0/4
+  Metal / Materials            IN(D)={'v': -0.47175628381870865, 'tier': 'ver'}  US(D)={'v': -1.0589126908018862, 'tier': 'ver'}  streak(IN/US)=3/4
+  Energy                       IN(D)={'v': -0.17486181468896828, 'tier': 'ver'}  US(D)={'v': 0.8337207712132104, 'tier': 'ver'}  streak(IN/US)=2/0
+  Realty                       IN(D)={'v': 1.3849790271852458, 'tier': 'ver'}  US(D)={'v': -1.1161769053195647, 'tier': 'ver'}  streak(IN/US)=0/3
+  PSU / Public Sector          IN(D)={'v': 0.40548650308542683, 'tier': 'ver'}  US(D)=None  streak(IN/US)=0/0
+  Media                        IN(D)={'v': 0.003281632510274759, 'tier': 'ver'}  US(D)={'v': -0.618718465550293, 'tier': 'ver'}  streak(IN/US)=0/3
+  Infra                        IN(D)={'v': 0.4934982869628438, 'tier': 'ver'}  US(D)=None  streak(IN/US)=0/0
+  Industrials                  IN(D)=None  US(D)={'v': -1.5078574191160383, 'tier': 'ver'}  streak(IN/US)=0/2
+  Utilities                    IN(D)=None  US(D)={'v': -1.1737678418304507, 'tier': 'ver'}  streak(IN/US)=0/1
+  Consumer Discretionary       IN(D)=None  US(D)={'v': -1.3422219562854893, 'tier': 'ver'}  streak(IN/US)=0/3
+  Auto                         IN(D)={'v': 1.2410519791848018, 'tier': 'ver'}  US(D)=None  streak(IN/US)=0/0
+
+Individual stock returns (this is the slow part - one call per stock):
+  done: IT / Technology
+  done: Banking / Financials
+  done: Pharma / Healthcare
+  done: FMCG / Consumer Staples
+  done: Metal / Materials
+  done: Energy
+  done: Realty
+  done: PSU / Public Sector
+  done: Media
+  done: Infra
+  done: Industrials
+  done: Utilities
+  done: Consumer Discretionary
+  done: Auto
+
+Wrote dashboard_data.json
+Wrote attribution_tracker_live.html
+        1 file(s) copied.
